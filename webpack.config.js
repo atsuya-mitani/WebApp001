@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var path    = require('path');
 
 module.exports = {
-  context: path.join(__dirname, "src"),
+  context: path.join(__dirname, "docs"),
   entry: "./js/client.js",
   module: {
     rules: [{
@@ -25,7 +25,7 @@ module.exports = {
       }]
     },
     output: {
-      path: __dirname + "/src/",
+      path: __dirname + "/docs/",
       filename: "client.min.js"
     },
     plugins: debug ? [] : [
@@ -34,7 +34,7 @@ module.exports = {
     ],
     devServer: {
       static:{
-        directory: "src"
+        directory: "docs"
       }
     }
   

@@ -1,0 +1,5 @@
+dev-server起動
+    npm start 
+    package.jsonに(webpack-dev-server --mode development)を記載しているため
+    
+

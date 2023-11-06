@@ -5,9 +5,9 @@ import "bootstrap";
 import Button from 'react-bootstrap/Button';
 
 const Header = () =>{
-    return (
-        <h1>テストです。</h1>
-    )
+  return(
+    <h1>テストですが何か？。</h1>
+  )
 }
 
 function Greet() {
